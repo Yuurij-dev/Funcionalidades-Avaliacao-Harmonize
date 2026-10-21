@@ -290,7 +290,7 @@ export function AtramentDemo({photo}:{photo:Photo}) {
     if(newTool!=='select')setSelectedId(null)
     setDraft(null)
   }
-  const at=(event:ReactPointerEvent<SVGSVGElement>):Point=>{
+  const at=(event:ReactPointerEvent<SVGElement>):Point=>{
     const rect=svgRef.current!.getBoundingClientRect()
     return {x:clamp((event.clientX-rect.left)/rect.width*photo.width,0,photo.width),y:clamp((event.clientY-rect.top)/rect.height*photo.height,0,photo.height)}
   }
