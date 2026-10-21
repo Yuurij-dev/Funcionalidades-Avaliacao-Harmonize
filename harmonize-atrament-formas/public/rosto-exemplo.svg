@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1040" viewBox="0 0 820 1040">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4f0eb"/><stop offset="1" stop-color="#dfd7cf"/></linearGradient>
+    <radialGradient id="skin" cx="48%" cy="35%" r="72%"><stop stop-color="#f3d2bd"/><stop offset=".7" stop-color="#e4ac93"/><stop offset="1" stop-color="#c88d75"/></radialGradient>
+    <linearGradient id="hair" x1="0" x2="1" y1="0" y2=".7"><stop stop-color="#483831"/><stop offset=".75" stop-color="#251e1c"/><stop offset="1" stop-color="#5a4338"/></linearGradient>
+    <linearGradient id="neck" x1="0" x2="1"><stop stop-color="#d49b84"/><stop offset=".5" stop-color="#f0bea5"/><stop offset="1" stop-color="#c68e75"/></linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1"><stop stop-color="#fdfbfa"/><stop offset="1" stop-color="#e5e1df"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="38"/></filter>
+  </defs>
+  <rect width="820" height="1040" fill="url(#back)"/>
+  <circle cx="144" cy="250" r="165" fill="#ffffff" opacity=".44" filter="url(#blur)"/>
+  <circle cx="714" cy="817" r="260" fill="#b9ada4" opacity=".24" filter="url(#blur)"/>
+  <path d="M 42 1040 Q 92 858 248 818 Q 310 803 325 740 L 495 739 Q 514 810 580 827 Q 730 876 789 1040 Z" fill="url(#shirt)"/>
+  <path d="M 322 703 L 324 796 Q 363 888 410 893 Q 459 888 500 796 L 493 693 Z" fill="url(#neck)"/>
+  <path d="M 217 400 Q 209 257 246 175 Q 304 68 415 85 Q 585 92 614 243 Q 648 391 598 565 L 570 724 Q 518 784 501 795 L 480 690 Z" fill="url(#hair)"/>
+  <path d="M 294 375 Q 258 338 254 414 L 280 550 L 298 580 M 535 375 Q 576 338 579 413 L 545 550 L 532 579" fill="#c78a72"/>
+  <path d="M 411 197 C 535 193 572 291 558 423 L 548 541 Q 547 665 481 721 Q 447 752 410 759 Q 358 752 319 707 Q 276 650 274 538 L 260 422 C 261 288 312 202 411 197 Z" fill="url(#skin)"/>
+  <ellipse cx="277" cy="501" rx="23" ry="49" fill="#d3987e"/>
+  <ellipse cx="548" cy="502" rx="23" ry="49" fill="#d3987e"/>
+  <path d="M 262 394 Q 284 273 324 261 Q 365 245 411 208 Q 460 273 555 295 L 562 386 Q 585 231 516 152 Q 434 77 338 139 Q 252 166 243 301 Z" fill="url(#hair)"/>
+  <path d="M 299 410 Q 347 383 383 411" fill="none" stroke="#604339" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 436 411 Q 476 385 526 410" fill="none" stroke="#604339" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 306 455 Q 339 434 377 456 Q 339 479 306 455" fill="#fcf5ed"/>
+  <path d="M 441 456 Q 475 432 519 455 Q 480 479 441 456" fill="#fcf5ed"/>
+  <circle cx="344" cy="454" r="15" fill="#62544b"/><circle cx="479" cy="454" r="15" fill="#62544b"/>
+  <circle cx="344" cy="453" r="8" fill="#282929"/><circle cx="479" cy="453" r="8" fill="#282929"/>
+  <circle cx="339" cy="449" r="4" fill="#fff"/><circle cx="474" cy="449" r="4" fill="#fff"/>
+  <path d="M 305 455 Q 342 429 381 455 M 439 455 Q 478 430 519 455" fill="none" stroke="#5b413a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 414 456 Q 405 520 387 561 Q 393 576 412 579 Q 431 576 440 563" fill="none" stroke="#bb826f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 385 591 Q 409 603 436 590" fill="none" stroke="#b5756d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 356 639 Q 384 623 409 629 Q 436 622 463 638 Q 433 657 408 659 Q 381 657 356 639 Z" fill="#ba696a"/>
+  <path d="M 358 640 Q 412 640 460 638" fill="none" stroke="#863f43" stroke-width="3"/>
+  <path d="M 378 690 Q 407 706 444 689" fill="none" stroke="#c98f7d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 281 551 Q 288 640 343 700" fill="none" stroke="#df9b83" stroke-width="6" opacity=".48"/>
+  <path d="M 542 552 Q 531 646 475 703" fill="none" stroke="#cd8876" stroke-width="6" opacity=".48"/>
+  <path d="M 288 799 Q 350 888 411 901 Q 483 878 535 796" fill="none" stroke="#d2bdb4" stroke-width="4" opacity=".65"/>
+  <rect x="28" y="29" width="764" height="982" rx="20" fill="none" stroke="#ffffff" stroke-width="2" opacity=".5"/>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#534d49" opacity=".75"><text x="49" y="72" font-size="17" letter-spacing="3">IMAGEM ILUSTRATIVA</text><text x="49" y="98" font-size="12" letter-spacing="2">SUBSTITUA POR UMA FOTO</text></g>
+</svg>
